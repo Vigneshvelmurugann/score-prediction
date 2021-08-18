@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Score Prediction</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='emp.jpg') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    
+
+  </head>
+  <body>
+    <!-- Website Title -->
+    <div class="container">
+          <h2 class='container-heading'><span class="heading_font">IPL First Innings Score Predictor</span></h2>
+          
+    </div>
+
+    <!-- Result -->
+    <div class="results">
+      <h1><span class='safe'>Final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</span></h1>
+    </div>
+
+
+
+</body>
+</html>
